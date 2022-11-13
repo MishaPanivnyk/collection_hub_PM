@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://panivnyk.github.io/parcel",
+  "homepage": "https://MishaPanivnyk.github.io/collection_hub_PM",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel/"
