@@ -1,0 +1,2 @@
+var today=new Date,hour=today.getHours(),name=CONFIG.name,gree1="".concat(CONFIG.greetingNight," "),gree2="".concat(CONFIG.greetingMorning," "),gree3="".concat(CONFIG.greetingAfternoon," "),gree4="".concat(CONFIG.greetingEvening," ");document.getElementById("greetings").innerText=hour>=23||hour<5?gree1+name:hour>=6&&hour<12?gree2+name:hour>=12&&hour<17?gree3+name:gree4+name;
+//# sourceMappingURL=index.ac3fd93f.js.map
