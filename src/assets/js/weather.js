@@ -56,7 +56,8 @@ function getWeather(latitude, longitude) {
 }
 
 function displayWeather() {
-  iconElement.innerHTML = `<img src="assets/icons/${CONFIG.weatherIcons}/${weather.iconId}.png"/>`;
+  iconElement.innerHTML = `<img src="./assets/icons/${CONFIG.weatherIcons}/${weather.iconId}.png"/>`;
+  // iconElement.innerHTML = `<img src="http://openweathermap.org/img/w/${weather.iconId}.png`;
   tempElement.innerHTML = `${weather.temperature.value.toFixed(
     0
   )}°<span class="darkfg">${tempUnit}</span>`;
