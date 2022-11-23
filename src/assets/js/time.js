@@ -15,12 +15,12 @@ function displayClock() {
     'Dec',
   ];
 
-  var d = new Date();
-  var mm = monthNames[d.getMonth()];
-  var dd = d.getDate();
-  var min = (mins = ('0' + d.getMinutes()).slice(-2));
-  var hh = d.getHours();
-  var ampm = '';
+  let d = new Date();
+  let mm = monthNames[d.getMonth()];
+  let dd = d.getDate();
+  let min = (mins = ('0' + d.getMinutes()).slice(-2));
+  let hh = d.getHours();
+  let ampm = '';
 
   if (CONFIG.twelveHourFormat) {
     ampm = hh >= 12 ? ' pm' : ' am';
