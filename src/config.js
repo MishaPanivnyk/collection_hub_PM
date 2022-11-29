@@ -57,7 +57,7 @@ const CONFIG = {
       id: '4',
       name: 'Calendar',
       icon: 'calendar-days',
-      link: '',
+      link: 'https://calendarpm.netlify.app/',
     },
     {
       id: '5',
