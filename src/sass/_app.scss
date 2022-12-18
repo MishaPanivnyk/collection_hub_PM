@@ -254,6 +254,8 @@ body {
   font-size: 6vh;
   color: var(--fg);
   font-weight: bolder;
+  display: flex;
+  justify-content: center;
 }
 .linksBlockLeft {
   grid-row: 1 / span 2;
@@ -342,7 +344,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 3rem;
-  padding: 0.4rem;
+  padding: 0.6rem;
 }
 
 .list {
